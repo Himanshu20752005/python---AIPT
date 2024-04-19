@@ -2,6 +2,12 @@ board = ["_","_","_","_","_","_","_","_","_"]
 current = 'x'
 won = 1
 
+def board_display():
+    print(board[0]+"  |   "+board[1]+"    |  "+board[2])
+    print("___________________")
+    print(board[3] + "  |   " + board[4] + "    |  " + board[5])
+    print("___________________")
+    print(board[6] + "  |   " + board[7] + "    |  " + board[8])
 
 def initialize_move():
     inpt = int(input("Enter the Position (1-9) : "))
